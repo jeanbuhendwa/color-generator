@@ -1,0 +1,110 @@
+body {
+    background: #EBEDEF;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 900px;
+    margin: 20px auto;
+    background: #fff;
+    border: 2px solid #c4cad1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px #555;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.container .container-text{
+    flex-shrink: 0;
+    text-align: center;
+}
+.container .container-text h1{
+    color: #283747;
+    text-transform: uppercase;
+}
+.container hr{
+    width: 400px;
+    border: 2px solid #c4cad1;
+    margin: 15px auto;
+}
+.container .container-body{
+    flex-grow: 1;
+    display: flex;
+}
+.container .container-body .container-one{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px #c4cad1;
+}
+.container .container-body .container-one .color-select{
+    flex-shrink: 0;
+    border-left: 2px dashed #c4cad1;
+    padding: 3px 10px;
+    text-align: center;
+}
+.container .container-body .container-one .color-select h2{
+    color: #34495E;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+.container .container-body .container-one .color-input{
+    flex-grow: 1;
+    text-align: center;
+    border-right: 2px dashed #c4cad1;
+    /* border-left: 1px dashed #c4cad1; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+.container .container-body .container-one .color-input label{
+    color: #5D6D7E;
+    font-size: 15px;
+    font-style: italic;
+}
+.container .container-body .container-one .color-input input{
+    margin: 10px;
+    border: 2px solid #c4cad1;
+    border-radius: 80%;
+}
+.container .container-body .container-one .profile{
+    flex-shrink: 0;
+    text-align: center;
+}
+.container .container-body .container-one .profile img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 2px 0 #555;
+}
+.container .container-body .container-one .profile h2{
+    margin-top: 0px;
+    color: #85929E;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+.vl-line{
+    border: 1px dashed #c4cad1;
+    height: 300px;
+    margin: 50px 30px;
+}
+.container .container-body .container-two{
+    display: flex;
+    flex-direction: column;
+}
+.container .container-body .container-two .color-section{
+    background: linear-gradient(to right, red, yellow);
+    width: 420px;
+    height: 250px;
+    margin-top: 50px;
+}
+.container .container-body .container-two .text-color-code{
+    border: 1px solid #fff;
+    box-shadow: 0px 2px 3px #c4cad1;
+    border-radius: 10px;
+    margin-top: 40px;
+}
